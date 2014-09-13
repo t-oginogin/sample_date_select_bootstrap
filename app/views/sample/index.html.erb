@@ -1,0 +1,40 @@
+
+  <br>
+  <div class="row">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      デフォルト：
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      <%= date_select 'date-normal', '', {use_month_numbers: true} %>
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      class="form-control"設定のみ：
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      <%= date_select 'date-class-only', '', {use_month_numbers: true}, {class: "form-control"} %>
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      stylesheet width設定を追加：
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      <%= date_select 'date-with-stylesheet', '', {use_month_numbers: true}, {class: "form-control"} %>
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      stylesheet display設定を追加：
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      <%= date_select 'date-with-stylesheet-inline', '', {use_month_numbers: true}, {class: "form-control"} %>
+    </div>
+  </div>
